@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +9,157 @@ html,
 body {
   width: 100%;
   height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  margin: 0 0 20px 40px;
+  width: 252.5px;
+  height: 57.5px;
+}
+
+#main {
+  width: 100wv;
+  display: flex;
+  padding-top: 2vw;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 33%;
+  padding-left: 2vw;
+  overflow: hidden;
+  /* height: 100vh; */
+}
+
+.menu_sidebar {
+  width: inherit;
+  height: 40%;
+}
+
+.menu_itme {
+  width: 22vw;
+  height: 4.5vw;
+  margin: 0 80px;
+  border: 2px solid rgba(133, 133, 133, 0.302);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3vw;
+  line-height: 30.36px;
+  font-weight: 500;
+  color: #757575;
+  padding: 1vw 3vw;
+  margin: 10px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+.menu_itme:hover {
+  color: #fff;
+  background-color: #127b5a;
+}
+.menu_ads {
+  /* padding-top: 3vw; */
+  width: 80%;
+  margin: auto;
+}
+
+.menu_ads img {
+  width: 377px;
+  border-radius: 10px;
+  height: 318px;
+}
+
+.red {
+  color: #ff5e5e;
+  border: 1px solid #ff5e5e;
+}
+
+.red:hover {
+  color: #fff;
+  background-color: #ff5e5e;
+}
+
+.feed {
+  padding: 0 3vw;
+  color: #424242;
+  width: 45%;
+}
+
+.cards {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  height: 40%;
+  gap: 20px;
+}
+
+.card {
+  width: 178px;
+  height: 300px;
+  /* border: 1px solid green; */
+}
+
+.card img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.blog {
+  color: #127b5a;
+}
+
+.blog_card {
+  margin: 1vw 0;
+  color: #424242;
+  width: 100%;
+  height: 15vh;
+  /* border: 2px solid rgba(133, 133, 133, 0.302); */
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 0.5vw;
+}
+
+.blog_img {
+  width: 20%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+.blog_img img {
+  height: 100%;
+  width: 100%;
+}
+
+aside {
+  /* margin-left: 2vw; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.searchbar {
+  padding: 2vw 0;
+}
+
+.searchbar input {
+  padding: 1vw 3vw;
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 1px solid #ededed;
+}
+.calender {
+  color: #127b5a;
+}
+
+.calender img {
+  width: 300px;
+}
+
+.upcoming_events {
+  color: #127b5a;
 }
